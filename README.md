@@ -56,6 +56,8 @@ Human approval before anything is submitted
 6. **Structured boundaries.** Pydantic models validate data exchanged between fetchers, scorers, agents, and workflow stages.
 7. **Human-in-the-loop at the right boundary.** The system can prepare and verify an application, but the user reviews and manually submits it.
 8. **Respect external systems.** Do not bypass access controls, robots exclusions, rate limits, or terms of service.
+9. This project operates on a plug-and-play basis, where you connect different job portals(url), and it uses that as the source of truth to run its pipeline(s)
+
 
 ## Proposed architecture
 
